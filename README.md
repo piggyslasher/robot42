@@ -13,7 +13,7 @@ or
 yarn && yarn test
 ```
 
-The robot can also be controlled after instantiated. You can play about with in in the run.js
+The robot can also be controlled after instantiated. You can play about with in in the run.js.
 
 You can get make Robot42 do what you want it to:
 

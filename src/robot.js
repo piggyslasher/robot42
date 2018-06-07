@@ -119,10 +119,12 @@ export default class Robot {
 
   /**
    * I report to base about my wherabouts in a complex grid
-   * so that they can find me easily
+   * so that they can find me easily. 
    * NOTE: (pov from dev)
    *   I usually keep a bucket task which I work on when I need a break, distraction.
    *   This is it. Code isn't optimal for this function but I'd say it turned out alright.
+   *   I know it's not in the requirements,
+   *   but I've built a tic-tac-toe board before so re-using the code.
    * @memberof Robot
    */
   reportVisual() {
@@ -139,13 +141,13 @@ export default class Robot {
 
     const output = [''] // I prepend a new line as I will join myself in the end
 
-    this.log(`  ${[...Array(this.size)].map((item, index) => index + 1).join('')} `)
+    output.push(`  ${[...Array(this.size)].map((item, index) => index + 1).join('')} `)
     output.push(`  ${[...Array(this.size + 1)].join('-')}`)
 
     // I don't want to use unshift because it's performance is bad, so reverse counting the array
     // would be much more awesome
-    for (let y = this.size; y >= 0; y--) {
-      const line = [`${y}|`]
+    for (let y = this.size - 1; y >= 0; y--) {
+      const line = [`${y+1}|`]
 
       for (let x = 0; x <= this.size + 1; x++) {
         if (x === this.position.x && y === this.position.y) {
