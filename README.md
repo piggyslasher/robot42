@@ -1,5 +1,5 @@
 # robot42 - The toy robot other toy robots look up to
-![build status][logo]
+![''][logo]
 
 Please have a look at [the test file](https://github.com/piggyslasher/robot42/blob/master/src/robot.test.js) to see assertions.
 
@@ -53,4 +53,4 @@ robot42.report(true); // signifies that you want to see a visual output
 */
 ```
 
-[logo]: //api.travis-ci.org/piggyslasher/robot42.svg?branch=master
+[logo]: https://api.travis-ci.org/piggyslasher/robot42.svg
