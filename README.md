@@ -1,6 +1,8 @@
 # robot42 - The toy robot other toy robots look up to
 ![''][logo]
 
+[Vik Ramanujam](https://vik.ramanuj.am)'s take on the toy robot.
+
 Please have a look at [the test file](https://github.com/piggyslasher/robot42/blob/master/src/robot.test.js) to see assertions.
 
 I've moved out most logic into a Utils file so that you could apply the movement logic to pretty much anything like a car or a human.
