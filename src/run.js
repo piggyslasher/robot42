@@ -10,6 +10,7 @@ const example2 = `
 `
 const robot42 = new Robot42(example2)
 
+robot42.sayHi()
 // robot42.move()
 // robot42.report()
 robot42.turn('LEFT')

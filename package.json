@@ -12,8 +12,8 @@
     "start:debug": "nodemon --inspect --exec npm run babel-node ./src/run.js",
     "test": "jest src",
     "test:watch": "jest src --watch",
-    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "coverage:watch": "jest --watch --collectCoverageFrom=src/**.js --coverage src"
+    "coverage": "jest --collectCoverageFrom=src/**.js --collectCoverageFrom=!src/run.js --coverage src && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "coverage:watch": "jest --watch --collectCoverageFrom=src/**.js --collectCoverageFrom=!src/run.js --coverage src"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
