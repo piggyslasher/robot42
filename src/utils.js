@@ -27,8 +27,8 @@ export default class Utils {
   /**
    *
    * @static
-   * @param {number} deg number of degrees I'm oriented frm North (0, 90, 180, 270)
-   * @returns {String}
+   * @param {String} Human readable orientation ['NORTH', 'SOUTH'...]
+   * @returns {Number} deg number of degrees I'm oriented frm North (0, 90, 180, 270)
    * @memberof Utils
    */
   static getOrientation(legibleOrientation) {
