@@ -1,5 +1,5 @@
 # robot42 - The toy robot other toy robots look up to
-![''][logo]&nbsp;[![Coverage Status](https://coveralls.io/repos/github/piggyslasher/robot42/badge.svg?branch=master)](https://coveralls.io/github/piggyslasher/robot42?branch=master)
+![''][logo]&nbsp;[![Coverage Status](https://coveralls.io/repos/github/piggyslasher/robot42/badge.svg?branch=master&today)](https://coveralls.io/github/piggyslasher/robot42?branch=master)
 
 [Vik Ramanujam](https://vik.ramanuj.am)'s take on the toy robot.
 
