@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Robot42: The Toy Robot other Toy Robots look up to",
   "main": "run.js",
+  "license": "Unlicense",
   "scripts": {
     "babel-node": "babel-node",
     "lint": "eslint src/**",
