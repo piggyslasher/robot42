@@ -17,7 +17,7 @@
                 "babel-register"
             ],
             "env": {
-                "NODE_ENV": "staging",
+                "NODE_ENV": "staging"
             },
             "console": "internalConsole",
             "sourceMaps": true,
