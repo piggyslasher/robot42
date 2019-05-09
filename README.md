@@ -58,5 +58,5 @@ robot42.report(true); // signifies that you want to see a visual output
 [logo]: https://api.travis-ci.org/piggyslasher/robot42.svg
 [coverall-link]: https://coveralls.io/github/piggyslasher/robot42?branch=master
 [coverall-badge]: https://coveralls.io/repos/github/piggyslasher/robot42/badge.svg?branch=master&today
-[codacy-badge]: https://api.codacy.com/project/badge/Grade/723898f5c960465eab5cf5988482e71a
-[codacy-link]: https://www.codacy.com/app/piggyslasher/robot42?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=piggyslasher/robot42&amp;utm_campaign=Badge_Grade
+[codacy-badge]: https://api.codacy.com/project/badge/Grade/723898f5c960465eab5cf5988482e71a?isInternal=true
+[codacy-link]: https://www.codacy.com/app/vviikk/robot42?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=piggyslasher/robot42&amp;utm_campaign=Badge_Grade
